@@ -1,0 +1,51 @@
+{
+    "window.zoomLevel": 0,// muda o zoom
+    "workbench.colorTheme": "Min Dark",// muda o tema
+    "symbols.hidesExplorerArrows": false, //mostra o caminho
+    "workbench.iconTheme": "symbols", //muda o tema dos icones
+    "editor.fontFamily": "JetBrains Mono", //fonte
+    "editor.fontSize": 14, //tamanho da fonte
+    //"editor.lineHeight": 1.5,
+    "editor.rulers": [120], //tamanho da linha
+    "workbench.startupEditor": "newUntitledFile",//inicia o editor com um novo arquivo
+    "editor.renderLineHighlight": "gutter", //mostra a linha e a coluna
+    "editor.fontLigatures": true, //liga as fontes
+    "workbench.editor.labelFormat": "short", //mostra o nome do arquivo
+    "explorer.compactFolders": false, //caso so tenha uma pasta dentro de pasta não deixa ficar uma linha so
+    "editor.semanticHighlighting.enabled": false,
+    "breadcrumbs.enabled": false, //remove o caminho do arquivo embaixo do nome dele
+    "workbench.activityBar.location": "bottom", //remove a barra lateral (ctrl + q)
+    "editor.minimap.enabled": false, //remove o minimapa da direita
+    "editor.scrollbar.vertical": "hidden", //remove a barra de scroll da direita
+    "editor.scrollbar.horizontal": "hidden", //remove a barra de scrool embaixo
+    "workbench.statusBar.visible": false, //remove a barra de status
+    "files.autoSave": "onFocusChange", //salva automaticamente
+    "workbench.layoutControl.enabled": false, //remove a barra de menu
+    "window.commandCenter": false, //remove a barra de comandos
+    "apc.header": {
+        "height": 30
+    }, //muda o tamanho da barra
+    "apc.font.family": "JetBrains Mono", //muda a fonte
+    "apc.stylesheet": {
+        ".title-label > h2": "display: none", //remove o nome
+        ".editor-actions": "display: none", //remove os botoes de ações
+        ".nosidebar .inline-tabs-placeholder": "width: 75px",
+        ".pane-header": "padding: 0 8px",
+        ".pane-body": "padding: 8px",
+        ".split-view-view:first-child .pane-header": "display: none !important;",
+        ".monaco-list-row": "border-radius: 4px;",
+        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+    },
+    "apc.listRow": {
+        "height": 24
+    },
+    "explorer.fileNesting.enabled": true, //junta os arquivos de configurações dependentes
+    "explorer.fileNesting.patterns": {
+        "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+        "tailwind.config.*": "tailwind.config*, postcss.config*",
+        ".env.local": ".env*",
+        ".env": ".env*"
+      },
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd font",
+}
